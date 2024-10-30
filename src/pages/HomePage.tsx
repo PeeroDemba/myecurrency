@@ -5,6 +5,7 @@ import { MdArrowRight } from "react-icons/md";
 import Header from "../components/Header";
 import { useContext } from "react";
 import { TC } from "../contexts/ToggleContext";
+import { Link } from "react-router-dom";
 
 function HomePage() {
   const toggleContext = useContext(TC);
@@ -20,9 +21,12 @@ function HomePage() {
             With the aid of our Melatonin Sleepstiq, we can assure you that you
             can get quality sleep.
           </p>
-          <button className="mt-8 h-[50px] w-[225px] rounded-md bg-[#FC5959] text-white">
+          <Link
+            to="/shop"
+            className="mt-8 h-[50px] w-[225px] rounded-md bg-[#FC5959] text-white"
+          >
             Visit Shop
-          </button>
+          </Link>
         </div>
         {!toggleContext?.toggle ? (
           <div className="absolute -bottom-[250px] right-0 flex h-[250px] w-[100vw] flex-col items-center justify-between gap-2 bg-white py-6 shadow-[0_75px_100px_-50px_#1f1f1f] md:-bottom-[65.05px] md:right-0 md:h-[131px] md:flex-row md:gap-4 md:px-[18px] md:py-0 lg:w-[calc(100vw-80px)] lg:gap-8 lg:px-[36px] min-[1440px]:w-[1276px] min-[1440px]:px-[72px]">
@@ -149,9 +153,12 @@ function HomePage() {
                   of our plant-based essential oil mist will mellow you out,
                   quiet the mind, and lull you to bed.
                 </p>
-                <button className="mt-8 h-[50px] w-[225px] rounded-md bg-[#FC5959] text-white">
+                <Link
+                  to="/shop"
+                  className="mt-8 h-[50px] w-[225px] rounded-md bg-[#FC5959] text-white"
+                >
                   Visit Shop
-                </button>
+                </Link>
               </div>
             </div>
           </section>
@@ -191,9 +198,12 @@ function HomePage() {
                 our plant-based essential oil mist will mellow you out, quiet
                 the mind, and lull you to bed.
               </p>
-              <button className="mt-8 h-[50px] w-[225px] rounded-md bg-[#FC5959] text-white">
+              <Link
+                to="/shop"
+                className="mt-8 h-[50px] w-[225px] rounded-md bg-[#FC5959] text-white"
+              >
                 Visit Shop
-              </button>
+              </Link>
             </div>
           </section>
           <div className="flex justify-center">
