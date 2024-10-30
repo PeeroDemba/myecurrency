@@ -23,7 +23,7 @@ function HomePage() {
           </p>
           <Link
             to="/shop"
-            className="mt-8 h-[50px] w-[225px] rounded-md bg-[#FC5959] text-white"
+            className="mt-8 block h-[50px] w-[225px] rounded-md bg-[#FC5959] py-[12.5px] text-center text-white"
           >
             Visit Shop
           </Link>
@@ -155,7 +155,7 @@ function HomePage() {
                 </p>
                 <Link
                   to="/shop"
-                  className="mt-8 h-[50px] w-[225px] rounded-md bg-[#FC5959] text-white"
+                  className="mt-8 block h-[50px] w-[225px] rounded-md bg-[#FC5959] py-[12.5px] text-center text-white"
                 >
                   Visit Shop
                 </Link>
@@ -200,7 +200,7 @@ function HomePage() {
               </p>
               <Link
                 to="/shop"
-                className="mt-8 h-[50px] w-[225px] rounded-md bg-[#FC5959] text-white"
+                className="mt-8 block h-[50px] w-[225px] rounded-md bg-[#FC5959] py-[12.5px] text-center text-white"
               >
                 Visit Shop
               </Link>

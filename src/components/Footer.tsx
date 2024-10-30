@@ -34,7 +34,7 @@ function Footer() {
               <p className="mb-8 text-center font-semibold md:text-left">
                 CONSUMER ADVISORY
               </p>
-              <p className="mb-8">
+              <p className="mb-8 text-justify md:text-left">
                 These statements have not been evaluated by the Food and Drug
                 Administration. This product is not intended to diagnose, treat,
                 cure, or prevent any disease. This product should be used only
@@ -42,7 +42,7 @@ function Footer() {
                 property of their respective owners and not affiliated with nor
                 do they endorse this product. Results may vary.
               </p>
-              <p>
+              <p className="text-justify md:text-left">
                 By using our website or product, you agree to follow our
                 <span className="text-[#8FE2FF]"> terms of service.</span>
               </p>
